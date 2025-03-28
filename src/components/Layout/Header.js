@@ -21,7 +21,7 @@ const Header = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-
+  
   const navItems = [
     { name: 'Home', path: '/' },
     { name: 'Products', path: '/products' },
